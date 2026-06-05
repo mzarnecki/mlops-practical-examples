@@ -1,0 +1,43 @@
+# Core scientific stack
+numpy>=1.26,<3
+pandas>=2.2,<3
+scikit-learn>=1.5,<2
+matplotlib>=3.9,<4
+joblib>=1.4,<2
+requests>=2.32,<3
+python-dotenv>=1.0,<2
+
+# Jupyter
+notebook>=7.2,<8
+ipykernel>=6.29,<7
+
+# MLOps and experiment tracking
+mlflow>=2.20,<4
+dvc>=3.50,<4
+
+# Model APIs
+fastapi>=0.115,<1
+uvicorn[standard]>=0.34,<1
+flask>=3.1,<4
+pydantic>=2.10,<3
+
+# TensorFlow / serving / edge / browser deployment
+tensorflow>=2.19,<2.21
+tensorflow-serving-api>=2.18,<3
+grpcio>=1.70,<2
+tensorflowjs>=4.20,<5
+netron>=8,<9
+
+# PyTorch example used in the MLflow notebook
+torch>=2.5,<3
+torchvision>=0.20,<1
+
+# LLMOps examples
+langsmith>=0.3,<0.5
+langchain>=0.3,<1.1
+langchain-core>=0.3,<1.1
+langchain-community>=0.3,<1
+langchain-openai>=0.3,<1
+langchain-classic>=1.0,<2
+openai>=1.60,<3
+ollama>=0.4,<1
