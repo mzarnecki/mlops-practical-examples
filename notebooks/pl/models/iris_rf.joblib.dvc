@@ -1,0 +1,5 @@
+outs:
+- md5: bc9108b9076be7a8cfa1b8ee5fd716a9
+  size: 84357
+  hash: md5
+  path: iris_rf.joblib
