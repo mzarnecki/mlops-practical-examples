@@ -1,2 +1,5 @@
 .idea
 data/
+number_plot.png
+mlruns
+notebooks/model
