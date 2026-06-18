@@ -1,8 +1,6 @@
 # MLOps Practical Examples
 
-Hands-on notebooks for a practical lecture on MLOps: versioning datasets and models, tracking experiments, exposing models as APIs, serving TensorFlow models in production, comparing REST and gRPC, observing LLM applications, serving local LLMs, monitoring GPU usage, and deploying smaller models to edge devices or browsers.
-
-The repository is intentionally notebook-first. It is designed for lectures, workshops and screencasts where each topic can be demonstrated step by step.
+Hands-on notebooks for a practical  MLOps scenarios: versioning datasets and models, tracking experiments, exposing models as APIs, serving TensorFlow models in production, comparing REST and gRPC, observing LLM applications, serving local LLMs, monitoring GPU usage, and deploying smaller models to edge devices or browsers.
 
 ## Repository structure
 
@@ -71,9 +69,7 @@ MIT License. See `LICENSE`.
 
 # Praktyczne przykłady MLOps
 
-Praktyczne notebooki do wykładu o MLOps: wersjonowanie danych i modeli, śledzenie eksperymentów, wystawianie modeli jako API, produkcyjne serwowanie modeli TensorFlow, porównanie REST i gRPC, obserwowalność aplikacji LLM, lokalne serwowanie LLM, monitoring GPU oraz wdrażanie mniejszych modeli na urządzeniach edge i w przeglądarce.
-
-Repozytorium jest celowo oparte na notebookach. Nadaje się do wykładów, warsztatów i screencastów, w których każdy temat można pokazać krok po kroku.
+Praktyczne notebooki z przykładami MLOps: wersjonowanie danych i modeli, śledzenie eksperymentów, wystawianie modeli jako API, produkcyjne serwowanie modeli TensorFlow, porównanie REST i gRPC, obserwowalność aplikacji LLM, lokalne serwowanie LLM, monitoring GPU oraz wdrażanie mniejszych modeli na urządzeniach edge i w przeglądarce.
 
 ## Struktura repozytorium
 
