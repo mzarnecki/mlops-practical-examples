@@ -3,3 +3,7 @@ data/
 number_plot.png
 mlruns
 notebooks/model
+app_fastapi.py
+app_flask.py
+models
+__pycache__
