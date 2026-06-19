@@ -7,3 +7,5 @@ app_fastapi.py
 app_flask.py
 models
 __pycache__
+.env
+*notebooks/*/models/*

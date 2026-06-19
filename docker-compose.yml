@@ -1,0 +1,37 @@
+services:
+  tf-jupyter:
+    image: nvcr.io/nvidia/tensorflow:25.02-tf2-py3
+    working_dir: /workspace
+    volumes:
+      - .:/workspace
+    ports:
+      - "8888:8888"
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    shm_size: "4gb"
+    environment:
+      TF_FORCE_GPU_ALLOW_GROWTH: "true"
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu]
+    command: >
+      bash -lc "python -m jupyter lab
+      --ip=0.0.0.0
+      --port=8888
+      --allow-root
+      --no-browser
+      --ServerApp.token=tf
+      --ServerApp.password=''"
+  tf-serving:
+    image: tensorflow/serving
+    ports:
+      - "8501:8501"
+      - "8500:8500"
+    volumes:
+      - ./notebooks/pl/models/mnist:/models/mnist:ro
+    environment:
+      MODEL_NAME: mnist
