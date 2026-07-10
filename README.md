@@ -19,13 +19,13 @@ mlops-practical-examples/
 
 | # | Notebook | Topic |
 |---|---|---|
-| 01 | `01_dvc_model_versioning_demo` | DVC as Git-like versioning for datasets and model artifacts. |
-| 02 | `02_fastapi_flask_model_api` | Exposing a trained ML model through FastAPI and Flask. |
-| 03 | `03_tensorflow_serving_rest_grpc` | TensorFlow Serving, model versioning, REST and gRPC inference. |
-| 04 | `04_ollama_llm_api_langsmith_context` | Local LLM serving with Ollama and the LLMOps context of LangSmith. |
-| 05 | `05_edge_gpu_netron_tflite_tfjs` | Netron, GPU monitoring with `nvidia-smi`, TensorFlow Lite/LiteRT and TensorFlow.js. |
-| 06 | `06_LLM_evaluation_criteria_tracking_with_langsmith` | Criteria-based LLM evaluation and experiment tracking with LangSmith. |
-| 07 | `07_MNIST_image_digit_classification_with_mlflow` | MNIST image classification in PyTorch with MLflow experiment tracking. |
+| 01 | [01_dvc_model_versioning_demo_en.ipynb](notebooks/en/01_dvc_model_versioning_demo_en.ipynb) | DVC as Git-like versioning for datasets and model artifacts. |
+| 02 | [02_MNIST_image_digit_classification_with_mlflow_en.ipynb](notebooks/en/02_MNIST_image_digit_classification_with_mlflow_en.ipynb) | MNIST image classification in PyTorch with MLflow experiment tracking. |
+| 03 | [03_fastapi_flask_model_api_en.ipynb](notebooks/en/03_fastapi_flask_model_api_en.ipynb) | Exposing a trained ML model through FastAPI and Flask. |
+| 04 | [04_tensorflow_serving_rest_grpc_en.ipynb](notebooks/en/04_tensorflow_serving_rest_grpc_en.ipynb) | TensorFlow Serving, model versioning, REST and gRPC inference. |
+| 05 | [05_LLM_evaluation_criteria_tracking_with_langsmith_en.ipynb](notebooks/en/05_LLM_evaluation_criteria_tracking_with_langsmith_en.ipynb) | Criteria-based LLM evaluation and experiment tracking with LangSmith. |
+| 06 | [06_ollama_llm_api_en.ipynb](notebooks/en/06_ollama_llm_api_en.ipynb) | Local LLM serving with Ollama. |
+| 07 | [07_edge_gpu_netron_tflite_tfjs_en.ipynb](notebooks/en/07_edge_gpu_netron_tflite_tfjs_en.ipynb) | Netron, GPU monitoring with `nvidia-smi`, TensorFlow Lite/LiteRT and TensorFlow.js. |
 
 Each notebook is available in two language versions:
 
@@ -34,12 +34,12 @@ Each notebook is available in two language versions:
 
 ## Suggested lecture flow
 
-1. Start with MLflow to show why experiment tracking matters.
-2. Use DVC to explain why code versioning is not enough for ML projects.
+1. Use DVC to explain why code versioning is not enough for ML projects.
+2. Continue with MLflow to show why experiment tracking matters.
 3. Expose a simple model with FastAPI or Flask.
-4. Move to TensorFlow Serving to show production-oriented model serving and version replacement.
-5. Compare REST and gRPC as inference protocols.
-6. Add LLMOps with Ollama and LangSmith.
+4. Move to TensorFlow Serving to show production-oriented model serving, model versioning, REST and gRPC inference.
+5. Introduce criteria-based LLM evaluation and experiment tracking with LangSmith.
+6. Serve a local LLM with Ollama.
 7. Finish with practical deployment concerns: GPU monitoring, Netron, TensorFlow Lite/LiteRT and TensorFlow.js.
 
 ## Installation
@@ -88,13 +88,13 @@ mlops-practical-examples/
 
 | # | Notebook | Temat |
 |---|---|---|
-| 01 | `01_dvc_model_versioning_demo` | DVC jako wersjonowanie danych i artefaktów modelu w stylu Git. |
-| 02 | `02_fastapi_flask_model_api` | Udostępnienie wytrenowanego modelu ML przez FastAPI i Flask. |
-| 03 | `03_tensorflow_serving_rest_grpc` | TensorFlow Serving, wersjonowanie modeli, inferencja przez REST i gRPC. |
-| 04 | `04_ollama_llm_api_langsmith_context` | Lokalne serwowanie LLM przez Ollama i kontekst LLMOps z LangSmith. |
-| 05 | `05_edge_gpu_netron_tflite_tfjs` | Netron, monitoring GPU przez `nvidia-smi`, TensorFlow Lite/LiteRT i TensorFlow.js. |
-| 06 | `06_LLM_evaluation_criteria_tracking_with_langsmith` | Ewaluacja LLM według kryteriów i śledzenie eksperymentów w LangSmith. |
-| 07 | `07_MNIST_image_digit_classification_with_mlflow` | Klasyfikacja cyfr MNIST w PyTorch ze śledzeniem eksperymentów w MLflow. |
+| 01 | [01_dvc_model_versioning_demo_pl.ipynb](notebooks/pl/01_dvc_model_versioning_demo_pl.ipynb) | DVC jako wersjonowanie danych i artefaktów modelu w stylu Git. |
+| 02 | [02_MNIST_image_digit_classification_with_mlflow_pl.ipynb](notebooks/pl/02_MNIST_image_digit_classification_with_mlflow_pl.ipynb) | Klasyfikacja cyfr MNIST w PyTorch ze śledzeniem eksperymentów w MLflow. |
+| 03 | [03_fastapi_flask_model_api_pl.ipynb](notebooks/pl/03_fastapi_flask_model_api_pl.ipynb) | Udostępnienie wytrenowanego modelu ML przez FastAPI i Flask. |
+| 04 | [04_tensorflow_serving_rest_grpc_pl.ipynb](notebooks/pl/04_tensorflow_serving_rest_grpc_pl.ipynb) | TensorFlow Serving, wersjonowanie modeli, inferencja przez REST i gRPC. |
+| 05 | [05_LLM_evaluation_criteria_tracking_with_langsmith_pl.ipynb](notebooks/pl/05_LLM_evaluation_criteria_tracking_with_langsmith_pl.ipynb) | Ewaluacja LLM według kryteriów i śledzenie eksperymentów w LangSmith. |
+| 06 | [06_ollama_llm_api_pl.ipynb](notebooks/pl/06_ollama_llm_api_pl.ipynb) | Lokalne serwowanie LLM przez Ollama. |
+| 07 | [07_edge_gpu_netron_tflite_tfjs_pl.ipynb](notebooks/pl/07_edge_gpu_netron_tflite_tfjs_pl.ipynb) | Netron, monitoring GPU przez `nvidia-smi`, TensorFlow Lite/LiteRT i TensorFlow.js. |
 
 Każdy notebook jest dostępny w dwóch wersjach językowych:
 
@@ -103,12 +103,12 @@ Każdy notebook jest dostępny w dwóch wersjach językowych:
 
 ## Sugerowany przebieg wykładu
 
-1. Zacząć od MLflow, żeby pokazać, dlaczego śledzenie eksperymentów jest ważne.
-2. Użyć DVC do wyjaśnienia, dlaczego samo wersjonowanie kodu nie wystarcza w projektach ML.
+1. Użyć DVC do wyjaśnienia, dlaczego samo wersjonowanie kodu nie wystarcza w projektach ML.
+2. Przejść do MLflow, żeby pokazać, dlaczego śledzenie eksperymentów jest ważne.
 3. Wystawić prosty model przez FastAPI lub Flask.
-4. Przejść do TensorFlow Serving, żeby pokazać produkcyjne serwowanie modeli i podmianę wersji.
-5. Porównać REST i gRPC jako protokoły inferencji.
-6. Dodać LLMOps z Ollama i LangSmith.
+4. Przejść do TensorFlow Serving, żeby pokazać produkcyjne serwowanie modeli, wersjonowanie, REST i gRPC.
+5. Wprowadzić ewaluację LLM według kryteriów i śledzenie eksperymentów w LangSmith.
+6. Uruchomić lokalny model LLM przez Ollama.
 7. Zakończyć praktycznymi aspektami deploymentu: monitoring GPU, Netron, TensorFlow Lite/LiteRT i TensorFlow.js.
 
 ## Instalacja
