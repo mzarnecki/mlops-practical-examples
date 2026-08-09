@@ -32,6 +32,13 @@ Each notebook is available in two language versions:
 - English: `notebooks/en/*_en.ipynb`
 - Polish: `notebooks/pl/*_pl.ipynb`
 
+## Articles related to this repository on medium 
+
+[MLOps Begins Where the Notebook Ends — MLOps in Practice Part 1](https://medium.com/@brightcode/mlops-begins-where-the-notebook-ends-mlops-in-practice-part-1-e8699a74ab3e?postPublishedType=repub)   
+[From Tracked Experiments to a Production Model API - MLOps in Practice Part 2](https://medium.com/@brightcode/from-tracked-experiments-to-a-production-model-api-mlops-in-practice-part-2-250e422cd3bf)   
+[Safe Model Rollouts, Responsible Production ML and LLMOps— MLOps in Practice Part 3](https://medium.com/@brightcode/877fb93989e0?sharedUserId=brightcode)   
+
+
 ## Suggested lecture flow
 
 1. Use DVC to explain why code versioning is not enough for ML projects.
